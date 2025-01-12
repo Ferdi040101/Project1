@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Physics Design</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Tahoma', sans-serif;
+            color: #ffffff;
+            background: linear-gradient(45deg, #ff6f91, #ff9671, #ffc75f, #f9f871);
+            background-size: 300% 300%;
+            animation: gradientBG 8s ease infinite;
+            overflow: hidden;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 3px solid rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        .formula {
+            font-size: 1.5rem;
+            line-height: 2.5rem;
+            animation: fadeIn 6s ease infinite;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(10px); }
+            50% { opacity: 1; transform: translateY(0); }
+            100% { opacity: 0; transform: translateY(10px); }
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thaanks for being best one behind<br> Good Luck to face this week?</h1>
+        <div class="formula">
+            E = mc<sup>2</sup><br>
+            F = ma<br>
+            V = IR<br>
+            P = \( \frac{W}{t} \)<br>
+            a = \( \frac{\Delta v}{\Delta t} \)<br>
+        </div>
+        <div class="footer">Colorful Physics Page</div>
+    </div>
+</body>
+</html>
